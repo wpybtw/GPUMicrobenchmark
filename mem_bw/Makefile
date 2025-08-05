@@ -1,7 +1,7 @@
-GENCODE_SM61 := -gencode=arch=compute_61,code=\"sm_61,compute_61\"
-GENCODE_SM70 := -gencode=arch=compute_70,code=\"sm_70,compute_70\"
+GENCODE_SM80 := -gencode=arch=compute_80,code=\"sm_80,compute_80\"
+GENCODE_SM90 := -gencode=arch=compute_90,code=\"sm_90,compute_90\"
 
-CUOPTS = $(GENCODE_SM50) $(GENCODE_SM61) $(GENCODE_SM70) 
+CUOPTS =   $(GENCODE_SM90)  $(GENCODE_SM80)  
 
 
 CC := nvcc
