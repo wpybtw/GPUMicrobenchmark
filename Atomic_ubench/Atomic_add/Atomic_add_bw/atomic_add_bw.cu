@@ -4,7 +4,7 @@
 #include <iostream>
 #include <algorithm>
 
-#define BLOCKS_NUM 160
+#define BLOCKS_NUM 132
 #define THREADS_NUM 1024 //thread number/block
 #define TOTAL_THREADS (BLOCKS_NUM * THREADS_NUM)
 #define REPEAT_TIMES 2048 

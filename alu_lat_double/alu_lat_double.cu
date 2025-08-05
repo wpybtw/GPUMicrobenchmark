@@ -94,7 +94,7 @@ int main(){
 
 	float latency;
 	latency = ((float)(stopClk[0]-startClk[0]))/((float)(REPEAT_TIMES*4));
-	printf("int32 latency = %f (clk)\n", latency);
+	printf("double latency = %f (clk)\n", latency);
 	printf("Total Clk number = %u \n", stopClk[0]-startClk[0]);
 
 	return 0;
